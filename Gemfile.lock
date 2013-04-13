@@ -1,10 +1,32 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    coderay (1.0.9)
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    ffi (1.7.0-java)
+    method_source (0.8.1)
+    multipart-post (1.2.0)
+    nokogiri (1.5.9)
     nokogiri (1.5.9-java)
+    pry (0.9.12)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry (0.9.12-java)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    slop (3.4.4)
+    spoon (0.0.3)
+      ffi
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
+  faraday
   nokogiri
+  pry
