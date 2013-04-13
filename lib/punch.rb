@@ -3,7 +3,7 @@ require 'pry'
 
 module Punch
 	def self.client
-		Punch::Client.new
+		client = Punch::Client.new
 	end
 end
 

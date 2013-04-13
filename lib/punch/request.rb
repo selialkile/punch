@@ -19,8 +19,9 @@ module Punch
 				when :get
 					request.url(path, options)
 				when :post
+					request.headers['Content-Type'] = Faraday::Request::UrlEncoded::mime_type #'application/x-www-form-urlencoded'
 					request.path = path
-					request.body = options.to_json unless options.empty?
+					request.body = URI.encode_www_form(options) unless options.empty?
 				end
 			end
 			return response if raw
