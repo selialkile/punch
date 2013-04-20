@@ -17,7 +17,7 @@ module Punch
 		# The endpoint that will be used to connect if none is set
 		DEFAULT_ENDPOINT = 'http://www.punchsub.com'.freeze
 
-
+		ANIME_LIST = 'http://www.punchsub.com/lista-de-animes/nome/todos/'.freeze
 
 		# @private
     	attr_accessor *VALID_OPTIONS_KEYS
