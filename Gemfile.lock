@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     coderay (1.0.9)
     faraday (0.8.7)
@@ -21,6 +21,7 @@ GEM
     slop (3.4.4)
     spoon (0.0.3)
       ffi
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   java
@@ -30,3 +31,4 @@ DEPENDENCIES
   faraday
   nokogiri
   pry
+  yajl-ruby

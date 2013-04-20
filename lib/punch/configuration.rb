@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Punch
 
 	# Defines constants and methods related to configuration

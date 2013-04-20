@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Punch
 	module Authentication
 		def authenticate login, password

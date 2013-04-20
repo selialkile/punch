@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Punch
 	class Episode
 		attr_accessor :download_link, :number, :size, :resolution, :quality

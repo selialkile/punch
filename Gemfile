@@ -1,5 +1,9 @@
-source :rubygems
+source "https://rubygems.org/"
 
 gem 'nokogiri'
-gem 'pry'
 gem 'faraday'
+gem "yajl-ruby"
+
+group :development, :test do
+  gem 'pry'
+end

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'json'
 module Punch
 	#Defines HTTP request methods

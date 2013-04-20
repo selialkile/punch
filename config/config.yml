@@ -1,0 +1,15 @@
+default: &defaults
+  user:
+  pass:
+
+test:
+  <<: *defaults
+
+development:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults
