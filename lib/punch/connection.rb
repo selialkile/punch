@@ -1,10 +1,12 @@
 require 'faraday'
+#require File.expand_path('../configuration', __FILE__)
+
 module Punch
 	module Connection
 		private
 		def connection(raw=false)
 			options={
-				:url => "http://www.punchsub.com"
+				:url => Configuration::DEFAULT_ENDPOINT
 			}
 			::Faraday::Connection.new(options) do |c|
 			  c.use Faraday::Request::UrlEncoded  # encode request params as "www-form-urlencoded"
